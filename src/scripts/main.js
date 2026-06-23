@@ -1,6 +1,6 @@
 'use strict';
 
-const people = require('../api/people.json');
+const people = require('.lib/people.json');
 const table = document.querySelector('.dashboard');
 
 people.forEach((person) => {
