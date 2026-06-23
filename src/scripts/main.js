@@ -1,6 +1,6 @@
 'use strict';
-import people from '../api/people.json';
 
+const people = require('../api/people.json');
 const table = document.querySelector('.dashboard');
 
 people.forEach((person) => {
